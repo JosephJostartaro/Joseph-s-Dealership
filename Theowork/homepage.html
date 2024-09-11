@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Official Joseph website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="picture/favi/blahaj.png">
+</head>
+
+<body>
+
+    <nav class="basecolor navbar navbar-expand-sm navbar-dark sticky-top ">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html" style="font-family: Playfair Display;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="font-family: Playfair Display;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html" style="font-family: Playfair Display;">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="font-family: Playfair Display;">Contact</a>
+                </li>
+            </ul>
+
+            <a class="navbar-text text-white" href="homepage.html" style="text-decoration: none; font-size: 35px;">Joseph Dealership</a>
+
+        </div>
+    </nav>
+
+    <div id="demo" class="carousel slide carousel-container" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./picture/slideshow/revuelto.jpg" alt="Lamborghini Revuelto" class="d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="./picture/slideshow/hondansx.jpg" alt="Honda" class="d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="./picture/slideshow/countach.jpg" alt="Lamborghini Countach" class="d-block">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <h2>Recently added</h2>
+
+    <form class="d-flex mb-4" role="search">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Type your car . . ." aria-label="Search" onkeyup="searchCars()">
+    </form>
+<p style="font-family: Playfair Display; margin-left: 30px; color: gray; font-size: 20px;">*click on the image for car website*</p>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://www.koenigsegg.com/model/agera-rs" target="_blank">
+                        <img src="./picture/card/koenigsegg.jpg" class="card-img-top" alt="Koenigsegg Agera RS">
+                    </a>
+                    <div class="card-body"> 
+                        <h5 class="card-title">Koenigsegg Agera RS</h5>
+                        <pre class="card-text">
+    Top Speed  : 410 km/h
+    0-100 km/h : 2.8 seconds
+    Price      : ฿140,000,000
+                        </pre>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://www.rolls-roycemotorcars.com/en_US/showroom/ghost.html" target="_blank">
+                        <img src="./picture/card/rollsroyce.jpg" class="card-img-top" alt="Rolls Royce Ghost">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Rolls Royce Ghost</h5>
+                        <pre class="card-text">
+    Top Speed  : 250 km/h
+    0-100 km/h : 4.6 seconds
+    Price      : ฿140,000,000
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://www.pagani.com/press/huayra-r-evo/" target="_blank">
+                        <img src="./picture/card/pagani.jpg" class="card-img-top" alt="Pagani Huayra R Evo">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Pagani Huayra R Evo</h5>
+                        <pre class="card-text">
+    Top Speed  : 350 km/h
+    0-100 km/h : 3.0 seconds
+    Price      : ฿110,000,000
+                        </pre>                
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://www.astonmartin.com/en/models/valkyrie" target="_blank">
+                        <img src="./picture/card/astonmartinvalkyrie.jpg" class="card-img-top" alt="Aston Martin Valkyrie">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Aston Martin Valkyrie</h5>
+                        <pre class="card-text">
+    Top Speed  : 402 km/h
+    0-100 km/h : 2.5 seconds
+    Price      : ฿120,000,000
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://cars.mclaren.com/en/super-series/720s" target="_blank">
+                        <img src="./picture/card/mclaren720s.jpg" class="card-img-top" alt="McLaren 720s">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">McLaren 720s</h5>
+                        <pre class="card-text">
+    Top Speed  : 341 km/h
+    0-100 km/h : 2.7 seconds
+    Price      : ฿22,000,000
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://www.ferrari.com/en-EN/auto/sf90-stradale" target="_blank">
+                        <img src="./picture/card/SF90.jpg" class="card-img-top" alt="Ferrari SF90">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Ferrari SF90</h5>
+                        <pre class="card-text">
+    Top Speed  : 340 km/h
+    0-100 km/h : 2.5 seconds
+    Price      : ฿27,000,000
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="basecolor text-white text-center py-3">
+        <p>&copy; 2024 Joseph Dealership. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
