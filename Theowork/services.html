@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     <nav class="basecolor navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container-fluid">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,13 +34,19 @@
         </div>
     </nav>
 
+    <div class="banner-container"></div>
+        <img src="./picture/services/car-service-banner.jpg" alt="Banner1" id="bannerbar" class="img-fluid">
+        <div class="banner-text">
+            <h1 style="font-size: 60px; margin-top: -200px;">Our Services</h1>
+        </div>
+    </div>
+
+
     <div class="container mt-5">
-        <h1 class="text-center mb-4" style="font-family: 'Playfair Display', serif; font-size: 50px;">Our Services</h1>
         <hr>
 
-        <!-- Service Cards -->
         <div class="row">
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" >
                 <div class="card h-100 hover-effect">
                     <img src="./picture/services/car-repair.jpg" class="card-img-top" alt="Car Repair">
                     <div class="card-body">
@@ -103,20 +110,33 @@
         </div>
     </div>
 
+    <pre>                                           
+    
+    </pre>
+
     <footer class="bg-dark text-white text-center py-3 mt-5">
         <p>&copy; 2024 Joseph Dealership. All rights reserved.</p>
     </footer>
 
     <style>
-        /* Hover effect for cards */
         .hover-effect {
-            transition: transform 0.3s ease-in-out;
+            transition: transform 0.4s ease-in-out;
         }
-
+    
         .hover-effect:hover {
             transform: translateY(-10px);
         }
+    
+        .card {
+            margin-top: 40px; 
+        }
+    
+        .body {
+            background-color: rgb(252, 250, 248);
+        }
     </style>
+
+
 
 </body>
 
